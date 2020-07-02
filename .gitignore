@@ -1,0 +1,56 @@
+# Python specific files
+*.pyc
+*.pyo
+
+# Generic files to ignore
+*~
+._*
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.patch
+*.diff
+*.empty
+*.orig
+*.noseids
+*.cprof
+.venv
+.env
+.coverage
+cover
+.pip
+coverage.xml
+htmlcov
+nosetests_*.xml
+tags
+
+# CSS/SCSS Specific
+*.css.map
+
+# Jupyter Specific
+.ipynb_checkpoints
+*.ipynb
+
+# Sphinx junk
+docs/api.rst
+docs/api.*.rst
+docs/Makefile
+docs/_build/
+docs/make.bat
+
+# Packer output
+dev/packer/gitrepos
+dev/packer/output-virtualbox-ovf
+dev/packer/vbox1404
+
+# EDITOR Configs
+# PyCharm
+.idea
+# VS Code
+.vscode
+
+# only used for running eslint locally
+package.json
+yarn.lock
+pipcache
